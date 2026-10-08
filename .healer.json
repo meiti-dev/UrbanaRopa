@@ -1,6 +1,19 @@
 {
   "revisar": [
-    "src/fabrica/diccionario/**"
+    "server/moldes/UrbanaRopa_muuxh6dv__Configuracion.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__PanelConfiguracionPagos.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__PanelRolesPermisos.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_CatalogoProductos.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_FichaProducto.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_MiCarrito.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_Checkout.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_HistorialPedidos.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_GestorPedidosAdmin.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_GestorEstadosPedido.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_AlertasStock.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_GestorInventario.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_GestorCatalogosBase.jsx",
+    "server/moldes/UrbanaRopa_muuxh6dv__UR_GestorZonasEnvio.jsx"
   ],
   "vulnerabilidades_aceptadas": [
     {
