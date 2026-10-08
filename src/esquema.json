@@ -1,0 +1,155 @@
+{
+  "tema": {
+    "colorPrimario": "#0F172A",
+    "colorSecundario": "#64748B",
+    "fondo": "#FFFFFF",
+    "superficie": "#F8FAFC",
+    "texto": "#0F172A"
+  },
+  "requiere_login": true,
+  "navegacion": {
+    "tipo": "tabs_inferior"
+  },
+  "paginas": [
+    {
+      "id": "tienda",
+      "titulo": "Tienda",
+      "icono": "fa-store",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_CatalogoProductos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Catálogo de productos en tarjetas con foto, precio, disponibilidad y filtros por categoría, talle, color y precio"
+    },
+    {
+      "id": "detalle_producto",
+      "titulo": "Detalle",
+      "icono": "fa-shirt",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_FichaProducto",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Vista detallada con galería de imágenes, descripción, selector de talle y color con stock y botón para añadir al carrito"
+    },
+    {
+      "id": "carrito",
+      "titulo": "Carrito",
+      "icono": "fa-basket-shopping",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_MiCarrito",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Lista de prendas seleccionadas con cantidades, subtotales y resumen del pedido"
+    },
+    {
+      "id": "checkout",
+      "titulo": "Checkout",
+      "icono": "fa-credit-card",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_Checkout",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Formulario para ingresar datos de entrega, seleccionar zona de envío y definir método de pago manual"
+    },
+    {
+      "id": "mis_pedidos",
+      "titulo": "Mis Pedidos",
+      "icono": "fa-box",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_HistorialPedidos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Historial de compras del cliente con visualización de estados del envío y detalle de cada orden"
+    },
+    {
+      "id": "configuracion",
+      "titulo": "Configuración",
+      "icono": "fa-gear",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__Configuracion",
+          "col_span": 12
+        },
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__PanelConfiguracionPagos",
+          "col_span": 12
+        },
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__PanelRolesPermisos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Panel administrativo para revisar todas las órdenes recibidas, cambiar estados y registrar pagos"
+    },
+    {
+      "id": "gestion_pedidos",
+      "titulo": "Gestión de Pedidos",
+      "icono": "fa-box-open",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_GestorPedidosAdmin",
+          "col_span": 12
+        },
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_GestorEstadosPedido",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Panel administrativo para revisar todas las órdenes recibidas, cambiar estados y registrar pagos"
+    },
+    {
+      "id": "control_stock",
+      "titulo": "Control de Stock",
+      "icono": "fa-boxes-stacked",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_AlertasStock",
+          "col_span": 12
+        },
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_GestorInventario",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Administración de inventario por producto, talle y color con alertas de existencias bajas y carga de nuevos artículos"
+    },
+    {
+      "id": "catalogos_sistema",
+      "titulo": "Catálogos del Sistema",
+      "icono": "fa-layer-group",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_GestorCatalogosBase",
+          "col_span": 12
+        },
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_GestorZonasEnvio",
+          "col_span": 12
+        },
+        {
+          "tipo": "UrbanaRopa_muuxh6dv__UR_GestorEstadosPedido",
+          "col_span": 12,
+          "repetido_a_proposito": "El dueño pidió explícitamente gestionar los estados de pedido en esta página de catálogos"
+        }
+      ],
+      "descripcion": "Configuración de categorías, talles, colores, zonas de envío con costos y estados de pedido"
+    }
+  ],
+  "estilo_layout": "app",
+  "es_industrial": false,
+  "estilo_visual": "calido"
+}

@@ -1,0 +1,11 @@
+{
+  "appId": "dev.meiti.export.urbanaropa_muuxh6dv",
+  "appName": "UrbanaRopa",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "webContentsDebuggingEnabled": false
+  }
+}
